@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPTICAL-SITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Candal&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/52dce4641c.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg nav-bar">
+            <a class="navbar-brand text-uppercase logo-text" href="#">OPTICAT SITE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active nav-links" id="home" href="#one">Home <span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link nav-links" id="home" href="#two">About</a>
+                    <a class="nav-item nav-link nav-links" id="home" href="#three">Products</a>
+                    <a class="nav-item nav-link nav-links" id="home" href="#four">Service</a>
+                    <a class="nav-item nav-link nav-links" id="home" href="#five">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <img src="Images/eye.png" alt="Eye-Image" class="Eye-Image">
+        <div class="container-fluid">
+            <div class="col-md-6 mt-md-0 mt-3">
+                <h1 class="f">f</h1>
+                <h1 class="c">c</h1>
+                <h1 id="u">u</h1>
+                <h1 class="s">S</h1>
+                <hr class="hr">
+                <div class="icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a><br>
+                    <a href=""><i class="fab fa-twitter"></i></a><br>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+                <hr class="hr1">
+            </div>
+        </div>
+        <h2 class="see">Eye can see.</h2>
+        <button type="button" class="btn btn-outline-primary" id="button">Read More&nbsp&rarr;</button>
+        <div class="numbers">
+            <a href type="" id="one" data-toggle="tooltip" data-placement="top" title="Home">01</a>&nbsp;
+            <a href type="" id="two" data-toggle="tooltip" data-placement="top" title="About">02</a>&nbsp;
+            <a href type="" id="three" data-toggle="tooltip" data-placement="top" title="Products">03</a>&nbsp;
+            <a href type="" id="four" data-toggle="tooltip" data-placement="top" title="Service">04</a>&nbsp;
+            <a href type="" id="five" data-toggle="tooltip" data-placement="top" title="Contact">05</a>
+        </div>
+    </div>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body>
+
+</html>
